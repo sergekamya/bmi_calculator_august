@@ -10,7 +10,7 @@ describe('User can calculate BMI value based on individual measurements', () => 
         });
 
         it("is expected to display a message", () => {
-            cy.get("#results").should("contain.text", "Your BMI value is 28.9");
+            cy.get("#results").should("contain.text", "Your BMI value is 27.6");
         });
         
     });
